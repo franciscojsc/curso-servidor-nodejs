@@ -1,0 +1,27 @@
+{
+  "name": "node-http-koajs",
+  "version": "1.0.0",
+  "description": "Criando servidor HTTP com KoaJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscojsc/curso-servidor-nodejs.git"
+  },
+  "keywords": [
+    "KoaJS"
+  ],
+  "author": "Francisco Chaves",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/franciscojsc/curso-servidor-nodejs/issues"
+  },
+  "homepage": "https://github.com/franciscojsc/curso-servidor-nodejs#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0"
+  }
+}
